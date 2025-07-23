@@ -1,7 +1,14 @@
 {
   "name": "use-loop",
   "author": "ianluan",
-  "version": "0.1.0",
+  "version": "0.2.1",
+  "keywords": [
+    "react",
+    "hook",
+    "animation",
+    "loop",
+    "visualization"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +18,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "repository": "github:ianluan/reactloop",
+  "repository": "github:ianluan/use-loop",
   "license": "MIT",
   "files": [
     "dist"
