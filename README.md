@@ -11,13 +11,13 @@ It's ideal for use cases such as:
 
 Instead of managing timers or frame calculations manually, ```useLoop``` gives you a clean way to bind time to logic, driven by a single value that updates over time.
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install use-loop
 ```
 
-## 🚀 Usage
+## Usage
 
 ```tsx
 import { useLoop } from './useLoop'
@@ -45,7 +45,7 @@ function TooEasy() {
 }
 ```
 
-## 🧠 API
+## API
 
 ### `useLoop(options: LoopOptions): LoopResult`
 
@@ -67,7 +67,7 @@ function TooEasy() {
 | `pause()`   | `() => void`| Pauses the loop                      |
 
 
-## ⏸ Pause, Resume and Reset
+## Pause, Resume and Reset
 ```useLoop``` exposes three control functions (```.play()```, ```.pause()```, and ```.reset()```) allowing you to start, stop, or restart the loop programmatically.
 
 ```tsx
@@ -88,8 +88,8 @@ function TooEasy() {
 }
 ```
 
-## 🚧 To Do
+## To Do
 Add examples of visualizations using ```useLoop```.
 
-## 📄 License
-MIT — Feel free to use, modify, and share!
+## License
+MIT
