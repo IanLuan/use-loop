@@ -1,0 +1,25 @@
+.text {
+  font-size: 4rem;
+}
+
+.word {
+  text-align: center;
+}
+
+.animated-blur {
+  animation: blurFade 2s;
+}
+
+@keyframes blurFade {
+  0% {
+    filter: blur(10px);
+  }
+
+  50% {
+    filter: blur(0px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}

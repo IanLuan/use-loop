@@ -1,6 +1,6 @@
 # useLoop
-### A  React Hook for creating smooth, timed loop visualizations
-```useLoop``` is a simple and declarative React hook designed to create timed, looped visualizations by iterating through a range of integers over a specified duration.
+### A React Hook for easily creating looped visualizations
+```useLoop``` is a simple React hook designed to create timed, looped visualizations by iterating through a range of integers over a specified duration.
 
 It's ideal for use cases such as:
 - Dynamic text animations: smoothly cycle through words, phrases, or create captivating letter-by-letter reveals;
@@ -20,7 +20,7 @@ npm install use-loop
 ## Usage
 
 ```tsx
-import { useLoop } from './useLoop'
+import { useLoop } from 'use-loop'
 
 function TooEasy() {
   const words = ['beautiful', 'easy', 'modern', 'elegant', 'fun']
@@ -33,10 +33,10 @@ function TooEasy() {
 
   return (
     <div>
-      <div className="text-7xl font-semibold text-center">
+      <div>
         Loops are
 
-        <div className="p-2 py-3 mt-2 animate-blur">
+        <div className="animate-blur">
           {words[loop.value]}
         </div>
       </div>
